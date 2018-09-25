@@ -52,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
     private void updateView() {
         mMessageTextView.setText(getString(R.string.message_format, mCounter));
 
+     //   mMessageTextView.setVisibility();
+     //   View.INVISIBLE
+     //   View.VISIBLE
     }
 
 
